@@ -9,6 +9,8 @@ A basic React.js application featuring a simple counter with **increment** and *
 - ✨ Clean and minimal UI
 - ⚛️ Built with functional components and React Hooks
 
+check this as live project => https://shen-react-counter.netlify.app
+
 ## 🚀 Getting Started
 
 Follow the steps below to clone and run the project locally:
@@ -19,4 +21,4 @@ cd react-counter-app
 npm install
 npm start
 
-check this as live project => https://shen-react-counter.netlify.app
+
