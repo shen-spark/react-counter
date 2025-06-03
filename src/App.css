@@ -1,0 +1,167 @@
+
+*{
+justify-content: center;
+margin: 0;
+padding-top: 100px;
+padding: 0;
+
+
+}
+
+
+
+
+
+.toggle-theme-button button{
+  margin-top: 100px;
+}
+
+.container{
+  margin-top: 50px;
+}
+
+
+.container.light{
+  
+  height: 200px;
+   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: 1s ease;
+
+
+
+
+ .timer-container h2{
+    color: red;
+    transition: 1s ease;
+
+}
+  
+
+
+}
+
+
+.container.dark{
+  
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: 1s ease;
+
+
+
+}
+
+.timer-container h2{
+  text-align: center;
+color: orange;
+  
+  
+}
+
+
+.btn-container button{
+  color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top:50px;
+
+    &&:hover{
+      box-shadow: 0 0 10px orange;
+      transition: 0.5s;
+      background: orange;
+      color: wheat;
+    }
+}
+
+
+.toggle-theme-button{
+  display: flex;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+
+/* #light{
+  
+  color: black;
+  background: white;
+}
+
+
+#dark{
+  color: white;
+} */
+
+
+
+
+
+.theme-color.light{
+  background-color: white;
+
+}
+
+
+.theme-color.dark{
+  background-color: black;
+
+}
+
+
+.btn-dark.dark{
+  transition: 1s;
+  background-color: orange;
+  color: white;
+
+}
+
+
+.btn-dark{
+  color: white;
+}
+
+.btn-light{
+  color: black;
+  background-color: white;
+}
+
+
+.btn-light.light{
+
+  transition: 1s;
+  color: black;
+  background-color: orange;
+  
+
+
+}
+
+
+
+
+
+ .theme.dark{
+  background-color: black;
+  height:100vh;
+  transition: 3s;
+ }
+
+ .theme.light{
+  background-color: azure;
+    transition: 10s;
+    height:100vh;
+  
+ }
+
+
+
+
+
