@@ -18,3 +18,5 @@ git clone https://github.com/yourusername/react-counter-app.git
 cd react-counter-app
 npm install
 npm start
+
+check this as live project => https://shen-react-counter.netlify.app
